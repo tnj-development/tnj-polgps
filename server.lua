@@ -13,12 +13,6 @@ QBCore.Functions.CreateUseableItem("gps", function(source, item)
     end
 end)
 
-RegisterCommand("test", function(source, args, raw)
-	local source = source
-	print(source)
-	TriggerClientEvent('tnj-polgps:use', source)
-end)
-
 RegisterNetEvent('tnj-polgps:server:ToggleGPS', function(toggle)
 	-- local toggle = toggle
     local source = source
