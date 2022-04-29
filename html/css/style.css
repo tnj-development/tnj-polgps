@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap');
+
+body {
+    position: relative;
+    font-family: sans-serif;
+    overflow: hidden;
+    top: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+  height: 100vh;
+  display:none;
+}
+
+.gps-container {
+  position: absolute;
+  bottom: -56vh;
+  right: 15vh;
+}
+
+.gps {
+  width: 18vh;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+#submit {
+  position: absolute;
+  width: 3.2vh;
+  height: 2.2vh;
+  bottom: 4vh;
+  right: 5.4vh;
+  border-radius: 5px;
+  transition: all 0.1s linear;
+}
+
+#submit:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+#disconnect {
+  position: absolute;
+  width: 3.2vh;
+  height: 2.2vh;
+  bottom: 4vh;
+  left: 5.4vh;
+  border-radius: 5px;
+  transition: all 0.1s linear;
+}
+
+#disconnect:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-inner-spin-button {
+  display: none;
+}
