@@ -8,6 +8,8 @@
 
 ## Join The Discord!
 
+Join Project Sloth Today for more GREAT Scripts!
+
 * https://www.discord.gg/projectsloth
 
 ## LICENSE
