@@ -1,4 +1,4 @@
-# ps-polgps
+# vs-polgps
 
 ## Must Be Added to qb-core/shared/items.lua
 
