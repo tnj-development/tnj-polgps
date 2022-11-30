@@ -13,7 +13,7 @@ $(function() {
 
     document.onkeyup = function (data) {
         if (data.which == 27) { // Escape key
-            $.post('https://tnj-polgps/escape', JSON.stringify({}));
+            $.post('https://vs-polgps/escape', JSON.stringify({}));
             GPS.SlideDown()
         }
     };
@@ -22,13 +22,13 @@ $(function() {
 $(document).on('click', '#submit', function(e){
     e.preventDefault();
 
-    $.post('https://tnj-polgps/GPSON');
+    $.post('https://vs-polgps/GPSON');
 });
 
 $(document).on('click', '#disconnect', function(e){
     e.preventDefault();
 
-    $.post('https://tnj-polgps/GPSOFF');
+    $.post('https://vs-polgps/GPSOFF');
 });
 
 
